@@ -20,7 +20,10 @@
 
         <!-- Bootstrap CSS File -->
         <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+        
+        <!-- Alert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        
         <!-- Libraries CSS Files -->
         <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
         <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -112,34 +115,32 @@
                                 <h4 class="title">
                                     <a href="">Бизнес</a>
                                 </h4>
-                                <p class="description">Et harum quidem rerum facilis est et
-                                    expedita distinctio. Nam libero tempore, cum soluta nobis est
-                                    eligendi</p>
+                                <p class="description">Начните свой бизнес с помощью наших идей! Мечтаете о собственном бизнесе, который можно построить самостоятельно? Поможем сделать это!</p>
+                                <!--Начните свой бизнес с помощью наших идей! Мечтаете о собственном бизнесе, который можно построить самостоятельно? Поможем сделать это!-->
                             </div>
 
                             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon">
-                                    <i class="fa fa-support"></i>
+                                    <i class="fa fa-connectdevelop"></i>
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Тех. Поддержка</a>
+                                    <a href="">Цифровизация</a>
+                                    <!--Автоматизация образовательных или иных процессов-->
                                 </h4>
-                                <p class="description">Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt mollit anim id est
-                                    laborum</p>
+                                <p class="description">Автоматизация образовательных или иных процессов</p>
+                                <!--Это может быть создание программного решения, сайта или даже внедрение целой инфраструктуры-->
                             </div>
 
-                            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+<!--                            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="icon">
                                     <i class="fa fa-connectdevelop"></i>
                                 </div>
                                 <h4 class="title">
                                     <a href="">Разработка IT</a>
                                 </h4>
-                                <p class="description">Minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat tarad limino ata</p>
-                            </div>
+                                <p class="description"></p>
+                                Это может быть создание программного решения, сайта или даже внедрение целой инфраструктуры
+                            </div>-->
 
                         </div>
 
@@ -194,7 +195,7 @@
                 <div class="container wow fadeIn">
                     <div class="section-header">
                         <h3 class="section-title">Услуги</h3>
-                        <p class="section-description">ИТ, Тех. поддержка, Бизнес</p>
+                        <p class="section-description"></p>
                     </div>
                     <div class="row">
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -203,7 +204,7 @@
                                     <a href=""><i class="fa fa-desktop"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Lorem Ipsum</a>
+                                    <a href="">IT</a>
                                 </h4>
                                 <p class="description">Voluptatum deleniti atque corrupti
                                     quos dolores et quas molestias excepturi sint occaecati
@@ -216,7 +217,7 @@
                                     <a href=""><i class="fa fa-bar-chart"></i></a>
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Dolor Sitema</a>
+                                    <a href="">Бизнес аналитика</a>
                                 </h4>
                                 <p class="description">Minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -226,17 +227,18 @@
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="box">
                                 <div class="icon">
-                                    <a href=""><i class="fa fa-paper-plane"></i></a>
+                                    <a href=""><i class="fa fa-support"></i></a>
+                                    <!--fa-paper-plane-->
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Sed ut perspiciatis</a>
+                                    <a href="">Тех. поддержка</a>
                                 </h4>
                                 <p class="description">Duis aute irure dolor in reprehenderit
                                     in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+<!--                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="box">
                                 <div class="icon">
                                     <a href=""><i class="fa fa-photo"></i></a>
@@ -274,7 +276,7 @@
                                     expedita distinctio. Nam libero tempore, cum soluta nobis est
                                     eligendi</p>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
 
                 </div>
@@ -576,7 +578,7 @@ Call To Action Section
                             <div class="form">
                                 <div id="sendmessage">Ваше сообщение было отправлено, скоро Вам ответят, Спасибо!</div>
                                 <div id="errormessage">Ваше сообщение не было отправлено, повторите заново!</div>
-                                <form action="" method="post" role="form" class="contactForm">
+                                <!--<form action="" method="post" role="form" class="send/send.php">-->
                                     <div class="form-group">
                                         <input type="text" name="name" class="form-control" id="name"
                                                placeholder="Ваше Имя" data-rule="minlen:4"
@@ -598,13 +600,13 @@ Call To Action Section
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" rows="5"
                                                   data-rule="required" data-msg="Пожалуйста, введите верные данные"
-                                                  placeholder="Сообщение"></textarea>
+                                                  placeholder="Сообщение" id="text"></textarea>
                                         <div class="validation"></div>
                                     </div>
                                     <div class="text-center">
-                                        <button type="submit">Отправить сообщение</button>
+                                        <button id="btnSend" class="btn btn-success swalDefaultSuccess" type="submit">Отправить сообщение</button>
                                     </div>
-                                </form>
+                                <!--</form>-->
                             </div>
                         </div>
 
@@ -653,6 +655,7 @@ Purchase the pro version with working PHP/AJAX contact form: https://bootstrapma
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/superfish/hoverIntent.js"></script>
         <script src="lib/superfish/superfish.min.js"></script>
+        
 
         <!-- Contact Form JavaScript File -->
         <script src="contactform/contactform.js"></script>
@@ -660,12 +663,13 @@ Purchase the pro version with working PHP/AJAX contact form: https://bootstrapma
         <!-- Template Main Javascript File -->
         <script src="js/main.js"></script>
         <script src="js/jquery.maskedinput.min.js"></script>
-<script>
-    $(document).ready(function() {
-        
-        $("#tel").mask("+7 (999) 999-99-99");
-    });
-</script>
+        <script>
+            $(document).ready(function() {
+                $("#tel").mask("+7 (999) 999-99-99");
+                
+            });
+        </script>
+        <script src="js/formSend.js"></script>
 
     </body>
 </html>
