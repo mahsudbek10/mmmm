@@ -1,4 +1,4 @@
-<?php //if($_SERVER['REQUEST_URI']=="/index.php") header("Location: https://smart.epolice.kz/index"); ?>
+<?php if($_SERVER['REQUEST_URI']=="/index.php") header("Location: https://smart.epolice.kz/index"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -107,10 +107,10 @@
 
                             <div class="icon-box wow fadeInUp">
                                 <div class="icon">
-                                    <i class="fa fa-shopping-bag"></i>
+                                    <i class="fa fa-bar-chart"></i>
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Eiusmod Tempor</a>
+                                    <a href="">Бизнес</a>
                                 </h4>
                                 <p class="description">Et harum quidem rerum facilis est et
                                     expedita distinctio. Nam libero tempore, cum soluta nobis est
@@ -119,10 +119,10 @@
 
                             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
                                 <div class="icon">
-                                    <i class="fa fa-photo"></i>
+                                    <i class="fa fa-support"></i>
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Magni Dolores</a>
+                                    <a href="">Тех. Поддержка</a>
                                 </h4>
                                 <p class="description">Excepteur sint occaecat cupidatat non
                                     proident, sunt in culpa qui officia deserunt mollit anim id est
@@ -131,10 +131,10 @@
 
                             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
                                 <div class="icon">
-                                    <i class="fa fa-bar-chart"></i>
+                                    <i class="fa fa-connectdevelop"></i>
                                 </div>
                                 <h4 class="title">
-                                    <a href="">Dolor Sitema</a>
+                                    <a href="">Разработка IT</a>
                                 </h4>
                                 <p class="description">Minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip ex ea commodo
