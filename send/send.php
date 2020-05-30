@@ -25,7 +25,7 @@ $tel = input($data['tel']);
 $text = input($data['text']);
 
 if (trim($email) != '' && trim($name) != '' && trim($email) != '' && 
-        trim($tel) != '' && filter_var($email, FILTER_VALIDATE_EMAIL) && preg_match("/^[0-9]+$/u", $tel)) {
+        trim($tel) != '' && filter_var($email, FILTER_VALIDATE_EMAIL) ) { //&& preg_match("/^[0-9]+$/u", $tel)
     $ok = R::exec("INSERT INTO orderss (name, email, tel, text) VALUES (?,?,?,?);", [$name, $email, $tel, $text]);
     if ($ok) {
         $ok = mail($email, "smart bb", "Ваша заявка принята, скоро с Вами свяжутся сотрудники компании", "From: smart@epolice.kz");
